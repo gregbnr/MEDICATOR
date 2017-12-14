@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'Ctrl_Start';
 $route['Ctrl_Medicator/'] = 'Ctrl_Medicator';
+$route['Ctrl_MedicatorG/'] = 'Ctrl_MedicatorG';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
